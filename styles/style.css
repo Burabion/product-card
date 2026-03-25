@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #515076;
+  margin: 0;
+}
+ul {
+  list-style-type: circle;
+  font-size: 13px;
+  padding-left: 16px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 27px;
+}
+h3, p, ul, span {
+  margin: 0;
+}
+.catalog{
+  background: url("../img/bg.png") no-repeat 85px 0px / 790px;
+  padding: 60px 0;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.card {
+  background-color: #F7F7FA;
+  border-radius: 16px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.18);
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 340px;
+  min-height: 573px;
+}
+.image-box{
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: white;
+  width: 100%;
+  height: 245px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+.grid {
+  gap: 45px;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 20px 0;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-size: 70px;
+  line-height: 78px;
+  text-align: center;
+  font-weight: 846;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+.tag1{
+  font-size: 12px;
+  color: #A5A3B9;
+}
+.tag2 {
+  font-size: 13px;
+}
+.label {
+  line-height: 24px;
+}
+.card p {
+  line-height: 1.5;
+}
+.price-label {
+  font-weight: 700;
+}
