@@ -1,3 +1,4 @@
+// Задание 2 - задачa из лекции
 const cards = document.querySelectorAll(".card")
 for (let i = 0; i<cards.length; i++){
 cards[i].addEventListener("mouseover", function(){
@@ -8,6 +9,7 @@ cards[i].addEventListener("mouseout", function(){
 });
 }
 
+// Задание 3 - При наведении на заголовок выводить контент в консоль
 const title = document.querySelector(".title");
 title.addEventListener("mouseover", function(){
   title.classList.add("active");
@@ -17,6 +19,7 @@ title.addEventListener("mouseout", function(){
   title.classList.remove("active");
 })
 
+// Задание 4 - Кнопка меняет тему (dark/light mode) при нажатии
 const btn = document.getElementById("theme-btn");
 const body = document.querySelector("body");
 
@@ -29,6 +32,7 @@ btn.addEventListener("click",function(){
   }
 });
 
+// Дополнительно - getElementsByClassName
 const cardsByClass = document.getElementsByClassName("card");
 console.log(cardsByClass);
 
