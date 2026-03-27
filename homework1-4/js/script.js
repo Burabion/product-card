@@ -1,3 +1,4 @@
+
 // Задание 2 - задачa из лекции
 const cards = document.querySelectorAll(".card")
 for (let i = 0; i<cards.length; i++){
