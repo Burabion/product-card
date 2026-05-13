@@ -1,5 +1,8 @@
+console.log("==========================================");
+console.log("Homework#5");
+
 /*Задания 3 Город и температура */
-console.log("Задания 3 Город и температура")
+console.log("Задания 3 Город и температура");
 function weatherInfo (city, temperature){
   console.log ("Сейчас в " + city + " температура — " + temperature + " градусов по Цельсию")
 }
