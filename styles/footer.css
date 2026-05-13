@@ -1,0 +1,160 @@
+.footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 60px 20px 30px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* ЛЕВАЯ КОЛОНКА*/
+.footer-brand {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.footer-tagline {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 25px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-socials img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.footer-socials img:hover {
+    transform: scale(1.1);
+}
+
+/*ЦЕНТРАЛЬНАЯ */
+.footer-subscribe {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+}
+
+.subscribe-title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.subscribe-form {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 477px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.subscribe-input {
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    flex-grow: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.subscribe-button {
+    background: transparent;
+    border: none;
+    border-left: 1px solid #E0E0E0;
+    padding: 0 25px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+    transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+    background-color: #f9f9f9;
+}
+
+/*ПРАВАЯ КОЛОНКА*/
+.footer-links {
+    flex: 1;
+    min-width: 150px;
+}
+
+.links-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+}
+
+/*НИЖНЯЯ ЧАСТЬ*/
+.footer-bottom {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    font-size: 12px;
+    opacity: 0.5;
+}
