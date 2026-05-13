@@ -1,4 +1,7 @@
 
+console.log("**************************************");
+console.log("Homework#4");
+
 // Задание 2 - задачa из лекции
 const cards = document.querySelectorAll(".card")
 for (let i = 0; i<cards.length; i++){
@@ -36,6 +39,7 @@ btn.addEventListener("click",function(){
 // Дополнительно - getElementsByClassName
 const cardsByClass = document.getElementsByClassName("card");
 console.log(cardsByClass);
+
 
 /*const product = [
   {name: "Увлажняющий мусс", price: 11.9 },
